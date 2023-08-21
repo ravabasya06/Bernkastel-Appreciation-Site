@@ -7,17 +7,12 @@ body {
   margin: 0px;
   background-color: #2f1d4d;
 }
-#deskripsi {
+main > section {
   color: white;
-}
-#banner {
-  height: 224px;
-  box-shadow: 0px 0px 20px 2px black;
 }
 #section-profile {
   text-align: center;
   background-color: #2f1d4d;
-  color: white;
   padding: 20px;
 }
 #profile-image {
@@ -36,34 +31,20 @@ body {
   box-shadow: 0px 0px 10px 2px black inset;
 }
 #section-about-title {
-  color: white;
   text-align: center;
   margin-top: 0;
 }
-#section-about-desc-bernkastel {
+.section-about-desc {
   display: flex;
   gap: 30px;
+}
+#section-about-desc-bernkastel {
   text-align: left;
 }
 #section-about-desc-erika {
-  display: flex;
-  gap: 30px;
   text-align: right;
 }
-#half-body-image-bernkastel {
-  background-color: #404274;
-  opacity: 1;
-  background-image: radial-gradient(#6667b9 5px, transparent 5px),
-    radial-gradient(#6667b9 5px, #404274 5px);
-  background-size: 80px 80px;
-  background-position: 0 0, 40px 40px;
-  height: 350px;
-  border-radius: 25px;
-  border-style: solid;
-  border-color: #404274;
-  box-shadow: 0px 0px 20px 5px black inset;
-}
-#half-body-image-erika {
+.half-body-image {
   background-color: #404274;
   opacity: 1;
   background-image: radial-gradient(#6667b9 5px, transparent 5px),
@@ -77,11 +58,11 @@ body {
   box-shadow: 0px 0px 20px 5px black inset;
 }
 #section-about-name {
-  color: white;
   transition: transform 0.2s;
   text-decoration: none;
 }
 #section-about-name > h1 {
+  color: white;
   font-weight: normal;
   display: inline-block;
 }
@@ -90,7 +71,6 @@ body {
   font-weight: bold;
 }
 #section-images-title {
-  color: white;
   text-align: center;
   margin-top: 35px;
 }
